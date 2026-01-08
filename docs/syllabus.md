@@ -4,7 +4,7 @@
 
 Python crash course
 ---
-1. <details><summary>Jan 14 T - <a href="../rise-presentations/python-basics">Intro and python basics 1</a></summary>
+1. <details><summary>Jan 13 T - Intro and python basics 1</summary>
 
      - You will get a brief overview of the course.
      - You will be able to use `conda` and `pip` to manage python environments.
@@ -13,25 +13,27 @@ Python crash course
 
     </details>
 
-2. <details><summary>Jan 16 R - <a href="../rise-presentations/python-basics">Python basics 2</a></summary>
+2. <details><summary>Jan 15 R - Python basics 2</summary>
 
      - You will understand some more basic python syntax.
 
     </details>
 
-3. <details><summary>Jan 21 T - CANCELED DUE TO WINTER STORM</summary>
+3. <details><summary>Jan 20 T - Python basics 3</summary>
 
-    </details>
-
-4. <details><summary>Jan 23 R - <a href="../rise-presentations/python-basics">Python basics 3</a></summary>
-
-     - You will understand all the basic python syntax needed to start using python for real projects.
+    - You will understand all the basic python syntax needed to start using python for real projects.
 
     </details>
 
 Working with data
 ---
-5. <details><summary>Jan 28 T - <a href="../rise-presentations/data-arrays-and-visualization">Data arrays and plots</a></summary>
+4. <details><summary>Jan 22 R - Python basics 3</summary>
+
+     - You will understand all the basic python syntax needed to start using python for real projects.
+
+    </details>
+    
+5. <details><summary>Jan 27 T - <a href="../rise-presentations/data-arrays-and-visualization">Data arrays and plots</a></summary>
 
      - You will appreciate that many types of data can be represented as N-dimensional arrays.
      - You will understand how to work with `numpy` N-dimensional arrays.
@@ -41,13 +43,13 @@ Working with data
 
     </details>
 
-6. <details><summary>Jan 30 R - <a href="../rise-presentations/random-walk-lab">Random walk lab</a></summary>
+6. <details><summary>Jan 29 R - <a href="../rise-presentations/random-walk-lab">Random walk lab</a></summary>
 
      - You will write a program to simulate random walks in various dimensions and with different types of boundaries.
 
     </details>
 
-7. <details><summary>Feb 4 T - <a href="../rise-presentations/data-tables-and-visualization">Tabular datasets</a></summary>
+7. <details><summary>Feb 3 T - <a href="../rise-presentations/data-tables-and-visualization">Tabular datasets</a></summary>
 
      - You will be able to to work with tabular data sets using `pandas`.
      - You will be able to use `seaborn` and `hvplot` to create plots from a `pandas` dataframe.
@@ -57,7 +59,7 @@ Working with data
 
 Probability and random variation
 ---
-8. <details><summary>Feb 6 R - <a href="../rise-presentations/probability-distributions">Probability distributions</a></summary>
+8. <details><summary>Feb 5 R - <a href="../rise-presentations/probability-distributions">Probability distributions</a></summary>
 
      - You will understand the difference between a probability and a probability density.
      - You will understand how some basic probability distributions relate to distinct types of random behavior.
@@ -66,7 +68,7 @@ Probability and random variation
 
     </details>
 
-9. <details><summary>Feb 11 T - <a href="../rise-presentations/resampling">Resampling</a></summary>
+9. <details><summary>Feb 10 T - <a href="../rise-presentations/resampling">Resampling</a></summary>
 
      - You will understand the difference between a population distribution and a sampling distributuion.
      - You will appreciate that statistics for different samples are likely to vary.
@@ -79,7 +81,7 @@ Probability and random variation
 
 Model optimization
 ---
-10. <details><summary>Feb 13 R - <a href="../rise-presentations/optimization-and-maximum-likelihood">Curve fitting and maximum likelihood estimation (MLE)</a></summary>
+10. <details><summary>Feb 12 R - <a href="../rise-presentations/optimization-and-maximum-likelihood">Curve fitting and maximum likelihood estimation (MLE)</a></summary>
 
      - You will be able to fit a function to data by minimizing the residuals.
      - You will be able to fit an arbitrary probability distribution to data by maximizing the loglikelihood.
@@ -90,7 +92,7 @@ Model optimization
 
 Exam
 ---
-11. <details><summary>Feb 18 T - Midterm exam</summary>
+11. <details><summary>Feb 17 T - Midterm exam</summary>
 
      - Cummulative exam for all topics covered up to this point.
 
@@ -98,7 +100,7 @@ Exam
 
 Machine learning
 ---
-12. <details><summary>Feb 20 R - <a href="../rise-presentations/linear-regression">Linear regression</a></summary>
+12. <details><summary>Feb 19 R - <a href="../rise-presentations/linear-regression">Linear regression</a></summary>
 
      - You will  be able to fit a line to X vs. Y data.
       - You will be able to fit a (hyper-)plane to {X0, X1, X2, ...} vs. Y data.
@@ -110,7 +112,7 @@ Machine learning
 
     </details>
 
-13. <details><summary>Feb 25 T - <a href="../rise-presentations/nonlinear-regression">Nonlinear regression</a></summary>
+13. <details><summary>Feb 24 T - <a href="../rise-presentations/nonlinear-regression">Nonlinear regression</a></summary>
 
      - You will be able to use a polynomial or K-nearest neighbors (KNN) model to explain the dependece of a target variable Y on feature variables {X}.
       - You will understand how polynomial regression can be recast as a simple linear regression.
@@ -118,7 +120,7 @@ Machine learning
 
     </details>
 
-14. <details><summary>Feb 27 R - <a href="../rise-presentations/cross-validation">Cross validation</a></summary>
+14. <details><summary>Feb 26 R - <a href="../rise-presentations/cross-validation">Cross validation</a></summary>
 
      - You will be able to split your dataset up into training and testing sets.
       - You will understand the difference between training error and testing error.
@@ -128,7 +130,7 @@ Machine learning
 
     </details>
 
-15. <details><summary>Mar 4 T - <a href="">Regularization</a></summary>
+15. <details><summary>Mar 3 T - <a href="">Regularization</a></summary>
 
      - You will appreciate how correlations can influence a linear regression.
       - You will be able to perform ridge and lasso regression.
@@ -138,7 +140,7 @@ Machine learning
 
     </details>
 
-16. <details><summary>Mar 6 R - <a href="">Generalized linear model (GLM)</a></summary>
+16. <details><summary>Mar 5 R - <a href="">Generalized linear model (GLM)</a></summary>
 
      - You will gain a conceptual understanding for a generalized linear model (GLM).
       - You will appreciate why a GLM may be a better choice than a simple linear model for neural spiking data.
@@ -148,7 +150,7 @@ Machine learning
 
     </details>
 
-17. <details><summary>Mar 11 T - <a href="">Classification</a></summary>
+17. <details><summary>Mar 10 T - <a href="">Classification</a></summary>
 
      - You will understand that classification invovles modeling the categorical grouping of data.
       - You will be able to use a logistic regression binary classifier.
@@ -165,7 +167,7 @@ Machine learning
 
     </details>
 
-18. <details><summary>Mar 13 R - <a href="">Clustering</a></summary>
+18. <details><summary>Mar 12 R - <a href="">Clustering</a></summary>
 
      - You will appreciate the difference between classification and clustering (i.e., no labels to train on).
       - You will understand and be able to use several different clustering algorithms to segregate data.
@@ -175,7 +177,7 @@ Machine learning
 
     </details>
 
-19. <details><summary>Mar 25 T - <a href="">Dimensionality reduction</a></summary>
+19. <details><summary>Mar 24 T - <a href="">Dimensionality reduction</a></summary>
 
      - You will understand the concept of principal component analysis (PCA).
       - You will be able to interpret the principal components as directions in the original data space.
@@ -186,7 +188,7 @@ Machine learning
 
     </details>
 
-20. <details><summary>Mar 27 R - <a href="">EEG and RNAseq datasets</a></summary>
+20. <details><summary>Mar 26 R - <a href="">EEG and RNAseq datasets</a></summary>
 
      - You will apply PCA to EEG time series.
       - You will be able to cluster time series and visualize the clustering in a low number of PCs.
@@ -198,7 +200,7 @@ Machine learning
 
 Modeling time series
 ---
-21. <details><summary>Apr 1 T - <a href="">Data series and convolution</a></summary>
+21. <details><summary>Mar 31 T - <a href="">Data series and convolution</a></summary>
 
      - You will appreciate that data points in sequences are correlated (unless pure noise) as opposed to independent random variables.
      - You will be appreciate how undersampling can introduces aliasing artifacts in a sequence.
@@ -215,7 +217,7 @@ Modeling time series
 
     </details>
 
-22. <details><summary>Apr 3 R - <a href="">Leaky integrate and fire (LIF) neuron</a></summary>
+22. <details><summary>Apr 2 R - <a href="">Leaky integrate and fire (LIF) neuron</a></summary>
 
      - You will appreciate how a cell membrane can be approximated by a simple RC circuit.
       - You will understand the concept of the LIF neuron model.
@@ -224,14 +226,14 @@ Modeling time series
 
     </details>
 
-23. <details><summary>Apr 8 T - <a href="">LIF neuron with synaptic input</a></summary>
+23. <details><summary>Apr 7 T - <a href="">LIF neuron with synaptic input</a></summary>
 
      - You will be able to simulate stochastic synaptic input to a LIF neuron.
       - You will appreciate how convulation can be used to integrate synaptic inputs.
 
     </details>
 
-24. <details><summary>Apr 10 R - <a href="">Hidden Markov model (HMM) 1</a></summary>
+24. <details><summary>Apr 9 R - <a href="">Hidden Markov model (HMM) 1</a></summary>
 
      - You will understand the concept of a hidden Markov model (HMM).
       - You will use an HMM to model current flowing through a single ion channel.
@@ -241,7 +243,7 @@ Modeling time series
 
     </details>
 
-25. <details><summary>Apr 15 T - <a href="">Hidden Markov model (HMM) 2</a></summary>
+25. <details><summary>Apr 14 T - <a href="">Hidden Markov model (HMM) 2</a></summary>
 
      - You will use an HMM to predict exons and introns in a nucleotide sequence.
 
@@ -249,7 +251,7 @@ Modeling time series
 
 Neural networks
 ---
-26. <details><summary>Apr 17 R - <a href="">Feedforward neural network (FNN)</a></summary>
+26. <details><summary>Apr 16 R - <a href="">Feedforward neural network (FNN)</a></summary>
 
      - You will understand the basic concept of a neural network as a universal function generator.
      - You will understand how the input and output layers of a neural network depend on the data and desired computation.
@@ -259,7 +261,7 @@ Neural networks
 
     </details>
 
-27. <details><summary>Apr 22 T - <a href="">Convolutional neural network (CNN)</a></summary>
+27. <details><summary>Apr 21 T - <a href="">Convolutional neural network (CNN)</a></summary>
 
      - You will be able to implement neural networks using PyTorch.
      - You will understand the basic concept of a CNN.
@@ -267,7 +269,7 @@ Neural networks
 
     </details>
 
-28. <details><summary>Apr 24 R - <a href="">Recurrent neural network (RNN)</a></summary>
+28. <details><summary>Apr 23 R - <a href="">Recurrent neural network (RNN)</a></summary>
 
      - You will understand the basic concept of a RNN.
      - You will appreciate that RNNs can be used to model sequences.
@@ -277,7 +279,7 @@ Neural networks
 
 Exam
 ---
-29. <details><summary>May 5 M @ 10:30-12:30 PM in WEL 1.316 - <a href="">Final exam</a></summary>
+29. <details><summary>Final exam</summary>
 
      - Cummulative exam for the entire semester, but will focus more on the topics covered after the midterm exam.
 
