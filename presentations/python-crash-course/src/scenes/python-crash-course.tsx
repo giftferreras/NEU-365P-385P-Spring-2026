@@ -428,9 +428,10 @@ export default makeScene2D(function* (view) {
     const mamabaLogo = createRef<Img>();
     const hatchLogo = createRef<Img>();
     const andMoreTxt = createRef<Txt>();
+    // width={900} textWrap={true} textAlign={'left'}
     view.add(
       <Node ref={tmpNode}>
-        <Txt ref={managersTxt} fontSize={48} textWrap={true} width={900} offset={[-1, -1]} position={[0, -300]} />
+        <Txt ref={managersTxt} fontSize={48} offset={[-1, -1]} position={[0, -300]} />
         <Node ref={logosNode} opacity={0} >
           <Img ref={pipLogo} src={'../../images/logos/pip-logo.png'} height={100} margin={20} offset={[-1, -1]} position={[0, -130]} />
           <Img ref={condaLogo} src={'../../images/logos/conda-logo.png'} height={100} margin={20} offset={[-1, -1]} position={[pipLogo().right().x + 50, pipLogo().top().y]} />
@@ -449,7 +450,7 @@ export default makeScene2D(function* (view) {
     yield* footerTxt().text('').opacity(1).fill(DEFAULT).text(footerStr, 1);
     // show package managers
     yield* beginSlide('');
-    yield* managersTxt().text('Fortunately, we have package managers for this...', 1);
+    yield* managersTxt().text('Fortunately, we have package managers:', 1);
     yield* logosNode().opacity(1, 1);
     yield* andMoreTxt().text('... and more...', 1);
     // conda and pip
@@ -460,12 +461,14 @@ export default makeScene2D(function* (view) {
     hatchLogo().remove();
     andMoreTxt().remove();
     yield* all(
-      managersTxt().text('').text('We\'ll use conda and pip, but you are free to use any package manager you like.', 1),
+      managersTxt().text('').text('We\'ll use conda and pip.', 1),
       condaLogo().x(pipLogo().x(), 1),
       pipLogo().y(pipLogo().y() + 200, 1),
       pipLogo().height(150, 1),
       condaLogo().height(150, 1),
     );
+    yield* beginSlide('');
+    yield* managersTxt().text('But you can use any you like.', 1);
   }
 
   // -------------------------------------------------------
